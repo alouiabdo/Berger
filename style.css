@@ -1,0 +1,118 @@
+
+/* Start Components */
+.special-heading {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+  }
+  .special-heading + p {
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+  }
+  @media (max-width: 767px) {
+    .special-heading {
+      font-size: 60px;
+    }
+    .special-heading + p {
+      margin-top: -20px;
+    }
+  }
+  /* End Components */
+.hed{
+    background-image: url(/img/wepik-export-20231026114249VvyT.jpeg);
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    color: aliceblue;
+    font-size: 100px;
+}
+img{
+    width:  90px;
+}
+aside{
+    display: flex;
+    background-color: rgba(33, 30, 82, 1);
+    justify-content: space-evenly;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.nav{
+    position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    z-index: 3;
+}
+.nav::first-letter{
+    color: orange;
+    font-size: larger;
+}
+section{
+    position: relative;
+    z-index: -1;
+}
+.hotback{
+    display: flex;
+    flex-direction:row;
+}
+.back1{
+    background-color: #211e52;
+    width:  400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.hot{
+    width: 400px;
+    border-radius: 15px;
+    transform: translate(30px, 30px);
+}
+.hotback{
+    position: relative;
+}
+.par{
+    padding: 20px;
+}
+.par h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.par {
+    text-align:left;
+    margin: 15px;
+    font-family: Trebuchet MS, sans-serif;
+}
+.hotback2{
+    display: flex;
+    margin-top: 50px;
+}
+.back2{
+    background-color: rgba(33, 30, 82, 1);
+    width:  400px;
+    height: 245px;
+    margin: 10px;
+    border-radius: 10px;}
+.hot2{
+    width: 390px;
+    border-radius: 15px;
+    transform: translate(-20px, 30px);
+}
+.par2 h1{
+    font-size: xx-large;
+}
+.par2 {
+    padding: 30px;
+    text-align: center;
+    margin: 15px;
+    font-family: Trebuchet MS, sans-serif;
+}
+
